@@ -1,0 +1,9 @@
+rofi.font: ProFontIIx 7
+#                  bg        fg        bgalt     hlbg      hlfg
+rofi.color-normal: #132a39,  #cbccc6,  #132a39,  #263c4c,  #cbccc6
+#                  bg        border
+rofi.color-window: #132a39,  #132a39
+
+rofi.fuzzy: true
+rofi.lines: 20
+rofi.bw: 2

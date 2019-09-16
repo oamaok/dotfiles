@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+LAYOUT=$(setxkbmap -query | tail -n 1)
+if [[ $LAYOUT == "layout:     us" ]]; then
+  setxkbmap -layout fi;
+else
+  setxkbmap -layout us;
+fi
