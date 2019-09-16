@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo $(curl https://quotes.rest/qod.json | jq '.contents.quotes[0].quote + " - " + .contents.quotes[0].author' | tr -d '"')

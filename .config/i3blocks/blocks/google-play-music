@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(cat ~/.config/Google\ Play\ Music\ Desktop\ Player/json_store/playback.json | jq '.song.artist + " - " + .song.title' | tr -d '"')
