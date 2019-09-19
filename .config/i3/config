@@ -203,7 +203,7 @@ client.unfocused        $bg_inactive  $bg_inactive  $text_color  #292d2e  $bg_in
 client.urgent           #ffb228  #900000  #000000  #900000  #900000
 client.placeholder      #000000  #0c0c0c  #ffffff  #000000  #0c0c0c
 
-bindsym Print --release exec "scrot -s /data/screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
-bindsym Shift+Print exec "scrot /data/screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+bindsym Print --release exec "scrot -s ~/screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+bindsym Shift+Print exec "scrot ~/screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 bindsym $mod+space exec /home/teemu/.config/i3/scripts/switch-kb-layout
 bindsym $mod+backspace exec chromium
