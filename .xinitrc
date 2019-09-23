@@ -32,7 +32,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-xrandr --output DVI-D-0 --primary --mode 1920x1080 --rate 144.00 --output DP-2 --left-of DVI-D-0 --output DP-1 --right-of DVI-D-0
+xrandr --output eDP1 --auto --dpi 196
 compton -cCGfF -o 0.7 -t -6 -l -6 -r 8 &
 feh --bg-fill ~/backgrounds/backround.png
 

@@ -1,4 +1,4 @@
-rofi.font: ProFontIIx 7
+rofi.font: mononoki 16
 #                  bg        fg        bgalt     hlbg      hlfg
 rofi.color-normal: #132a39,  #cbccc6,  #132a39,  #263c4c,  #cbccc6
 #                  bg        border
