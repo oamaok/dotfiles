@@ -33,7 +33,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 xrandr --output eDP1 --auto --dpi 196
-compton -cCGfF -o 0.7 -t -6 -l -6 -r 8 &
+compton -bcCGfF -o 0.7 -t -6 -l -6 -I 1 -O 1
 feh --bg-fill ~/backgrounds/backround.png
 
 exec i3
